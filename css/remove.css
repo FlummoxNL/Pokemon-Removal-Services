@@ -1,0 +1,147 @@
+/*** Pokemon Removal Services.com CSS ***/
+
+/* Header */
+.poke-ball {
+	margin-top: 0.5em;	
+}
+
+.poke-ball img {
+	width: 35%;
+	height: auto;
+	-webkit-animation:spin 13s linear infinite;
+    -moz-animation:spin 13s linear infinite;
+    animation:spin 13s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/* Sample Pests */
+.row-sample-pests {
+	background-color: #D9D9D9;
+	border-radius: 1em 1em 0 0;
+}
+
+.company-title {
+	color: #EE1515;
+}
+
+.sample-pests, .people-div {
+	display: block;
+	margin: 0.8em 0 0.8em 0;
+	background-color: #FEFEFE;
+	border-radius: 0.5em;
+}
+
+.sample-pests .sample-pest-image img {
+	width: 100%;
+}
+
+.sample-pests .sample-pest-name {
+	text-align: center;
+}
+
+.sample-pests .sample-pest-check {
+	color: #EE1515;
+	text-align: center;
+	font-size: 2.7em;
+}
+
+.sample-pests .sample-pest-text {
+	text-align: center;
+	padding: 0.2em 0.2em 0.5em 0.2em;
+	min-height: 8.7em;
+}
+
+/* Promo */
+.row-promo {
+	background-color: #D9D9D9;
+	border-radius: 0 0 1em 1em;
+	padding-bottom: 1.5em;
+}
+
+.row-promo div h3 {
+	color: #EE1515;
+	background-color: #FEFEFE;
+	font-weight: bold;
+	border-radius: 0.5em;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+.row-promo div p {
+	background-color: #FEFEFE;
+	font-size: 1.2em;
+	border-radius: 0.5em;
+	padding: 1em;
+}
+
+/* Contact */
+.row-contact {
+	margin: 2em 0 2em 0;
+}
+
+.row-contact .contact-header {
+	color: #EE1515;
+	text-align: center;
+	border: medium solid #EE1515;
+	border-radius: 0.5em;
+	padding: 0 0 0.5em 0;
+	margin: 0 0 1em 0;
+}
+
+.contact-div {
+	width: 100%;
+	height: auto;
+	background-color: #EE1515;
+	border-radius: 0.5em;
+}
+
+.contact-div div {
+	text-align: center;
+	padding: 1em 0 0 0;
+}
+
+.contact-div span {
+	color: #FEFEFE;
+	font-size: 2.5em;
+}
+
+.contact-div h5 {
+	color: #FEFEFE;
+	text-align: center;
+	padding: 0 0 1em 0;
+}
+
+/* Our People */
+.row-our-people {
+	background-color: #D9D9D9;
+	border-radius: 1em 1em 0 0;
+}
+
+.people-image img {
+	width: 100%;
+	height: auto;
+	border-radius: 0.5em;
+}
+
+.people-text p {
+	padding: 0.5em;
+	min-height: 9em;
+}
+
+.people-name {
+	padding: 0.5em 1em 0.5em 0.5em;
+}
+
+.people-name a {
+	text-align: right;
+}
+
+/* Footer */
+footer .container {
+	background-color: #D9D9D9;
+}
+
+footer .container div p {
+	color: #B9B9B9;
+}
